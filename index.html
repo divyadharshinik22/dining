@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dine-In Delight</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Dine-In Delight</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Why Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#booking">Book Table</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="about">
+    <h2>Welcome to Dine-In Delight</h2>
+    <p>Fine dining experience with a cozy ambiance and exquisite flavors.</p>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Why Choose Us</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <h3>Fresh Ingredients</h3>
+        <p>Locally sourced, always fresh.</p>
+      </div>
+      <div class="card">
+        <h3>Cozy Ambiance</h3>
+        <p>Elegant décor and relaxing music.</p>
+      </div>
+      <div class="card">
+        <h3>Excellent Service</h3>
+        <p>Professional and friendly staff.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Menu Highlights</h2>
+    <ul>
+      <li><strong>Seared Steak</strong> - $25</li>
+      <li><strong>Lobster Bisque</strong> - $18</li>
+      <li><strong>Truffle Pasta</strong> - $20</li>
+      <li><strong>Molten Chocolate Cake</strong> - $9</li>
+    </ul>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>Book Your Table</h2>
+    <form onsubmit="submitBooking(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="date" required />
+      <input type="time" required />
+      <input type="number" placeholder="Guests" min="1" required />
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: reservations@dineindelight.com</p>
+    <p>Phone: (123) 456-7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dine-In Delight. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
